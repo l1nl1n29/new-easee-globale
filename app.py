@@ -11,7 +11,7 @@ model = tf.keras.models.load_model('model/mymodel.h5')
 def index():
     #current_user = get_jwt_identity()
     #return jsonify(logged_in_as=current_user), 200
-    return "Hello World this is <SEESEA-GLOBALE> save your word, save your life"
+    return "Hello World this is SEESEA-GLOBALE save your word, save your life"
 
 # Route for image prediction
 @app.route('/predict', methods=['POST'])
